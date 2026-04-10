@@ -2796,7 +2796,8 @@ select.form-input {
 }
 
 .btn-submit-form {
-    width: 1005px 32px;
+    width: 100%;
+    padding: 16px 32px;
     background: linear-gradient(135deg, var(--clr-primary) 0%, var(--clr-primary-dark) 100%);
     color: var(--clr-white);
     border: none;
@@ -2813,8 +2814,7 @@ select.form-input {
     box-shadow: 0 8px 20px rgba(243, 149, 25, 0.3);
     position: relative;
     overflow: hidden;
-    margin-top: 12pxve;
-    overflow: hidden;
+    margin-top: 12px;
 }
 
 .btn-submit-form::before {
